@@ -1,0 +1,33 @@
+.ablility-list {
+  width: 30%;
+  padding: 10px;
+  margin: 0;
+}
+
+.list-item {
+  font-size: 1.05rem !important;
+}
+
+.admin-page--container {
+  padding: 10px;
+  display: flex;
+  width: 100%;
+}
+
+.cinema-info {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+
+.cinema-info--item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.addInfo {
+  width: 70%;
+  padding: 10px;
+}

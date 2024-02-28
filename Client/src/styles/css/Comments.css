@@ -1,0 +1,35 @@
+.comments-container {
+  padding: 20px;
+  margin-top: 5px;
+}
+
+.comments-title {
+  text-align: center !important;
+  font-weight: bold !important;
+}
+
+.comments-list {
+  margin-top: 20px;
+  border-top: 1px solid #ee2d37;
+  padding-top: 20px;
+}
+
+.comment-item--container {
+  width: 100%;
+  background-color: rgba(67, 80, 97, 0.2);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.comment-item {
+  display: flex;
+  gap: 10px;
+}
+
+.comment-username {
+  color: "#85C3E7" !important;
+}
+
+.comment-item {
+  margin-bottom: 8px;
+}

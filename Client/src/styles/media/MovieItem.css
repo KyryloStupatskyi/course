@@ -1,0 +1,58 @@
+@media (max-width: 900px) {
+  .img {
+    height: 330px;
+  }
+
+  .movie-title {
+    font-size: 1.15rem !important;
+  }
+
+  .city-list--card {
+    padding: 7px;
+  }
+
+  .city-list--title {
+    font-size: 0.9rem !important;
+  }
+
+  .session-info,
+  .prev-title {
+    font-size: 1.1rem !important;
+  }
+
+  .list-item--name,
+  .list-item--address {
+    font-size: 0.95rem !important;
+  }
+
+  .buttons-container {
+    flex-direction: column;
+  }
+
+  .description-item {
+    font-size: 0.9rem !important;
+  }
+
+  .film-description--title {
+    margin-bottom: 16px !important;
+    font-size: 0.95rem !important;
+  }
+
+  .film-description {
+    font-size: 0.9rem !important;
+  }
+}
+
+@media (max-width: 630px) {
+  .description-item--container {
+    flex-direction: column !important;
+    align-items: center;
+    min-width: auto;
+  }
+}
+
+@media (max-width: 550px) {
+  .container {
+    flex-direction: column;
+  }
+}

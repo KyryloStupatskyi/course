@@ -1,0 +1,65 @@
+@media (max-width: 900px) {
+  .seatItem,
+  .disabled,
+  .infoSelected {
+    width: 25px;
+    height: 25px;
+  }
+
+  .grid-tmp {
+    grid-template-columns: repeat(8, 30px);
+    gap: 8px;
+  }
+
+  .seatNumber {
+    font-size: 10px;
+  }
+
+  .info-item-title {
+    font-size: 14px !important;
+  }
+
+  .seat-Modal--list-item,
+  .sum-title {
+    font-size: 14px !important;
+  }
+
+  .sum-container {
+    justify-content: center;
+  }
+
+  .btn {
+    font-size: 12px !important;
+  }
+}
+
+@media (max-width: 760px) {
+  .seatItem,
+  .disabled,
+  .infoSelected {
+    width: 20px;
+    height: 20px;
+  }
+
+  .grid-tmp {
+    grid-template-columns: repeat(8, 25px);
+    gap: 5px;
+  }
+
+  .seatNumber {
+    font-size: 7px;
+  }
+
+  .info-item-title {
+    font-size: 12px !important;
+  }
+
+  .seat-Modal--list-item,
+  .sum-title {
+    font-size: 12px !important;
+  }
+
+  .btn {
+    font-size: 10px !important;
+  }
+}

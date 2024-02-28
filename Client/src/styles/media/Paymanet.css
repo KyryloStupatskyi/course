@@ -1,0 +1,27 @@
+@media (max-width: 1250px) {
+  .payment-wrapper {
+    width: 45%;
+  }
+}
+
+@media (max-width: 1120px) {
+  .payment-wrapper {
+    width: 60%;
+  }
+}
+
+@media (max-width: 720px) {
+  .payment-wrapper {
+    width: 80%;
+  }
+}
+
+@media (max-width: 720px) {
+  .left-side {
+    border-right: 0;
+    width: auto;
+  }
+  .payment-wrapper {
+    flex-direction: column;
+  }
+}

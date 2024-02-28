@@ -1,0 +1,7 @@
+@media (max-width: 900px) {
+  .comments-title,
+  .comment-username,
+  .comment-item {
+    font-size: 0.95rem !important;
+  }
+}

@@ -1,0 +1,108 @@
+.movieItemPageContainer {
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  gap: 30px;
+}
+
+.img-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.img {
+  border-radius: 10px;
+  height: 430px;
+}
+
+.movie-title {
+  font-size: 1.3rem !important;
+  font-weight: bold !important;
+  display: flex;
+  justify-content: center;
+}
+
+.city-list--container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-bottom: 1px solid gray;
+  padding-bottom: 20px;
+}
+
+.city-list--card {
+  border-radius: 20px !important;
+  padding: 10px;
+}
+
+.session-info {
+  font-size: 20px !important;
+  margin-bottom: 20px !important;
+  color: #1975d1 !important;
+}
+
+.prev-title {
+  font-size: 20px !important;
+  font-weight: bold !important;
+}
+
+.cinema-list--container {
+  width: 100%;
+  border-top: 2px solid #e6e6e6;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.list-item--container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-item--name {
+  font-family: sans-serif !important;
+  font-size: 18px !important;
+  font-weight: 600 !important;
+}
+
+.buttons-container {
+  display: flex;
+  gap: 5px;
+  flex-direction: row;
+}
+
+.description-container {
+  margin-top: 20px;
+  border-top: 1px solid #ee2d37;
+  border-bottom: 1px solid #ee2d37;
+  padding: 10px;
+}
+
+.description-title {
+  text-align: center !important;
+  font-weight: bold !important;
+  margin-bottom: 24px !important;
+}
+
+.description-item--container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  min-width: 300px;
+}
+
+.description-item {
+  font-weight: bold !important;
+}
+
+.film-description--title {
+  font-weight: bold !important;
+  margin-bottom: 24px !important;
+}
